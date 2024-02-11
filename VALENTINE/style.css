@@ -32,6 +32,7 @@ button {
     border-style:groove;
     border-color: purple;
     background-color: magenta;
+    color: black;
 }
 .FORTNITE {
     display: flex;

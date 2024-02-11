@@ -3,7 +3,6 @@ body {
     text-align: center;
     height: 100mvh;
 }
-
 h1 {
     color: magenta;
     text-shadow: .2rem .2rem .3rem black;
@@ -20,12 +19,19 @@ h2 {
     transform: translate(-50%, 60%);
 }
 .vildu {
-    padding-top: 50px;
+    padding-top: 3em;
 }
 
 
 i {
     color: red;
+}
+
+button {
+    font-size: x-large;
+    border-style:groove;
+    border-color: purple;
+    background-color: magenta;
 }
 .FORTNITE {
     display: flex;

@@ -11,6 +11,14 @@
     <h1 class="vildu">Vil du, min:</h1>
     <button id="complimentButton"><p id="complimentDisplay">Trykk meg</p></button>
     <h1 class="blimin">jente være min valentine?</h1>
-   <script src="/java.js"></script> 
+   <script>
+   const compliments = ["Søte", "Fine", "Vakre", "Flinke", "Flotte", "Sexy", "Heite", "Beste", "Lekre", "Attraktive", "Pene", "Snille", "Sjarmerende", "Glamorøse", "Nydelige", "Nusselige", "Perfekte", "Thicc", "Skjønne", "Submissive", "Ømfintlige", "Digge"];
+
+    document.getElementById('complimentButton').addEventListener('click', () => {
+        const randomIndex = Math.floor(Math.random() * compliments.length);
+        const randomCompliment = compliments[randomIndex];
+        document.getElementById('complimentDisplay').innerText = randomCompliment;
+    });
+    </script> 
 </body>
 </html>
